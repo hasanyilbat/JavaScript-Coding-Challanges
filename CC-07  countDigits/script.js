@@ -1,7 +1,7 @@
 function countDigits(digit, low, high) {
   const numArr = [];
   let counter = 0;
-  if (digit < 0) {
+  if (digit < 0 || digit > 9) {
     return -1;
   } else {
     for (let i = low; i <= high; i++) {
@@ -18,4 +18,4 @@ function countDigits(digit, low, high) {
   }
 }
 
-console.log(countDigits(5, 9, 10));
+console.log(countDigits(3, 30, 39));
