@@ -6,9 +6,11 @@ function countDigits(digit, low, high) {
   } else {
     for (let i = low; i <= high; i++) {
       numArr.push(String(i).split(""));
+      
     }
+    console.log(numArr);
     const charArr = [].concat.apply([], numArr);
-
+console.log(charArr);
     charArr.map((num) => {
       if (num === String(digit)) {
         counter++;
