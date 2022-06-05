@@ -5,13 +5,20 @@
 
 // //! Palindrome
 
-const minNum = 0;
-const maxNum = 34;
+// const minNum = 0;
+// const maxNum = 34;
 
-for (let i = minNum; i < maxNum; i++) {
-  const strI = String(i).split(``);
+// for (let i = minNum; i < maxNum; i++) {
+//   const strI = String(i).split(``);
 
-  if (strI.join() === strI.reverse().join()) {
-    console.log(`${i} is a palindrome number`);
-  }
-}
+//   if (strI.join() === strI.reverse().join()) {
+//     console.log(i);
+//   }
+// }
+
+// //*
+
+const minNum = document.querySelector(".min");
+const maxNum = document.querySelector(".max");
+
+console.log(minNum);
